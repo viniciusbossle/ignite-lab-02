@@ -1,5 +1,5 @@
-import { useGetLessonsQuery } from "../graphql/generated";
 import { Lesson } from "./Lesson";
+import { useGetLessonsQuery } from "../graphql/generated";
 
 export function Sidebar() {
   const { data } = useGetLessonsQuery()
